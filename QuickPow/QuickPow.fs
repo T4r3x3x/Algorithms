@@ -1,4 +1,7 @@
-﻿open System.Diagnostics
+﻿module QuickPow
+
+open System.Diagnostics
+
 let rec quickPow x y m acc =
     match (y % 2) with
     | 0 when y = 0 -> acc
